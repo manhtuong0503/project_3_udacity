@@ -41,3 +41,5 @@ venv/
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 set_env.sh
+.history
+a945docker build . -t 9d3532d7e3-1943324937.us-east-1.elb.amazonaws.com

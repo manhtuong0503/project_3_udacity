@@ -84,7 +84,7 @@ Once, all deployment and service files are ready, you can use commands like:
 # Apply env variables and secrets
 kubectl apply -f aws-secret.yaml
 kubectl apply -f env-secret.yaml
-kubectl apply -f env-configmap.yaml
+kubectl apply -f set-env-configmap.yaml
 # Deployments - Double check the Dockerhub image name and version in the deployment files
 kubectl apply -f backend-feed-deployment.yaml
 # Do the same for other three deployment files
